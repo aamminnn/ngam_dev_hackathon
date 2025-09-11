@@ -15,7 +15,7 @@ for i in range(100):  # 10k lawyers
     lawyer_id = i + 1 
     name = fake.name() 
     # specialization = random.choice(specializations) 
-    progress = random.randint(1, 400) 
+    progress = random.randint(1, 100) 
     quality = random.randint(1, 10)
     impact = random.randint(1, 10)
     complexity = random.randint(1, 10)
@@ -39,11 +39,11 @@ df = pd.DataFrame(data, columns=[
 
 # Add score column using your weights
 df["score"] = (
-    0.2*df["progress"] +
+    0.05*df["progress"] +
     0.3*df["quality"] +
-    0.25*df["impact"] +
-    0.15*df["complexity"] +
-    0.1*df["timeliness"]
+    0.3*df["impact"] +
+    0.2*df["complexity"] +
+    0.15*df["timeliness"]
 )
 
 # Save to CSV 

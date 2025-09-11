@@ -29,9 +29,11 @@ clf.fit(X_train, y_train)
 # Evaluate
 # print("Accuracy:", clf.score(X_test, y_test))
 preds = clf.predict(X_test)
-print("MSE:", mean_squared_error(y_test, preds))
+mse = mean_squared_error(y_test, preds)
+print("MSE:", mse)
 r2 = r2_score(y_test, preds)
 print("R²:", r2)
 
 # Save model to file
-joblib.dump(clf, "performance_model.pkl")
+model_name = "RandomForest.pkl"
+joblib.dump(clf, model_name)

@@ -1,0 +1,15 @@
+
+[2025-09-11 14:10:07] Model=RandomForest.pkl | MSE=0.58 | R2=0.91
+Employee Rankings:
+ rank          emp_name  predicted_score
+    1      Erin Skinner          81.3175
+    2      Cameron King          79.7100
+    3  Melissa Mckenzie          76.9675
+    4 Alexander Goodwin          65.1105
+    5       John Watson          45.6320
+    6   Margaret Wilcox          44.1675
+    7         Lisa Cobb          35.8170
+    8     Kimberly Bush          16.5955
+    9       Cody Rivera          13.9655
+   10      Daisy Davies           8.5985
+--------------------------------------------------
