@@ -1,0 +1,11 @@
+emp_id,emp_name,progress,quality,impact,complexity,timeliness,score
+1,John Watson,209,2,8,5,3,45.45
+2,Alexander Goodwin,302,9,7,4,9,66.35000000000001
+3,Kimberly Bush,63,3,10,10,6,18.1
+4,Cody Rivera,42,8,7,8,1,13.85
+5,Melissa Mckenzie,359,2,3,1,1,73.39999999999999
+6,Daisy Davies,22,10,5,5,3,9.700000000000001
+7,Erin Skinner,387,1,9,7,2,81.2
+8,Cameron King,381,4,8,3,9,80.75000000000001
+9,Lisa Cobb,167,5,1,1,9,36.199999999999996
+10,Margaret Wilcox,194,10,10,10,6,46.400000000000006
