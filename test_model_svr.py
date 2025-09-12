@@ -3,17 +3,11 @@ import joblib
 from train_model_randomforest import mse, r2, model_name
 from datetime import datetime
 
-# Load trained model
-clf = joblib.load("Model_RandomForest.pkl")
+model = joblib.load("Model_SupportVectorRegression.pkl")
 
-# Load new dataset
 new_df = pd.read_csv("test_data.csv")
-
-# Extract features
 X_new = new_df[["progress", "complexity", "quality", "impact", "timeliness"]]
-
-# Predict scores
-new_df["predicted_score"] = clf.predict(X_new)
+new_df["predicted_score"] = model.predict(X_new)
 
 # Rank employees
 new_df = new_df.sort_values(by="predicted_score", ascending=False).reset_index(drop=True)

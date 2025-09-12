@@ -1,15 +1,62 @@
 
-[2025-09-11 14:10:07] Model=RandomForest.pkl | MSE=0.58 | R2=0.91
+
+
+[2025-09-11 16:39:23] Model=Model_RandomForest.pkl | MSE=0.73 | R2=0.82
 Employee Rankings:
  rank          emp_name  predicted_score
-    1      Erin Skinner          81.3175
-    2      Cameron King          79.7100
-    3  Melissa Mckenzie          76.9675
-    4 Alexander Goodwin          65.1105
-    5       John Watson          45.6320
-    6   Margaret Wilcox          44.1675
-    7         Lisa Cobb          35.8170
-    8     Kimberly Bush          16.5955
-    9       Cody Rivera          13.9655
-   10      Daisy Davies           8.5985
+    1   Margaret Wilcox          11.3905
+    2 Alexander Goodwin          10.3230
+    3      Erin Skinner           9.5745
+    4      Cameron King           9.5400
+    5       John Watson           9.4930
+    6     Kimberly Bush           9.1695
+    7         Lisa Cobb           8.7455
+    8  Melissa Mckenzie           8.6565
+    9       Cody Rivera           8.4215
+   10      Daisy Davies           6.8185
+--------------------------------------------------
+
+[2025-09-11 16:39:33] Model=Model_XGBoost.pkl | MSE=0.67 | R2=0.78
+Employee Rankings:
+ rank          emp_name  predicted_score
+    1   Margaret Wilcox        11.900947
+    2 Alexander Goodwin        11.383699
+    3         Lisa Cobb         9.590010
+    4      Cameron King         9.551045
+    5     Kimberly Bush         9.473829
+    6       John Watson         9.120765
+    7      Erin Skinner         8.975494
+    8  Melissa Mckenzie         8.922025
+    9       Cody Rivera         8.919022
+   10      Daisy Davies         6.703709
+--------------------------------------------------
+
+[2025-09-12 15:49:01] Model=Model_LinearRegression.pkl | MSE=0.00 | R2=1.00
+Employee Rankings:
+ rank          emp_name  predicted_score
+    1      Cameron King            24.60
+    2      Erin Skinner            24.05
+    3 Alexander Goodwin            22.05
+    4  Melissa Mckenzie            19.80
+    5   Margaret Wilcox            18.60
+    6       John Watson            14.90
+    7         Lisa Cobb            11.70
+    8     Kimberly Bush             9.95
+    9       Cody Rivera             8.35
+   10      Daisy Davies             7.05
+--------------------------------------------------
+
+[2025-09-12 16:06:13] Model=Model_RandomForest.pkl | MSE=0.82 | R2=0.69
+Employee Rankings:
+ rank          emp_name  predicted_score
+    1       John Watson            7.425
+    2 Alexander Goodwin            7.425
+    3     Kimberly Bush            7.425
+    4       Cody Rivera            7.425
+    5  Melissa Mckenzie            7.425
+    6      Daisy Davies            7.425
+    7      Erin Skinner            7.425
+    8      Cameron King            7.425
+    9         Lisa Cobb            7.425
+   10   Margaret Wilcox            7.425
 --------------------------------------------------
