@@ -13,3 +13,6 @@ Smart performance reviewer
 2. faker
 3. datasets
 4. tabpfn
+
+## How to run streamlit
+`streamlit run app.py`
