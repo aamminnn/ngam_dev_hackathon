@@ -1,23 +1,24 @@
 import pandas as pd
 import joblib
-from train_model_randomforest import mse, r2, model_name
+from train_model_xgboost import mse, r2, model_name
 from datetime import datetime
 
 # Load trained model
-clf = joblib.load("Model_RandomForest.pkl")
+model = joblib.load("Model_XGBoost.pkl")
 
-# Load new dataset
+# Load new employee data
 new_df = pd.read_csv("test_data.csv")
 
-# Extract features
+# Predict performance scores
 X_new = new_df[["progress", "complexity", "quality", "impact", "timeliness"]]
-
-# Predict scores
-new_df["predicted_score"] = clf.predict(X_new)
+new_df["predicted_score"] = model.predict(X_new)
 
 # Rank employees
 new_df = new_df.sort_values(by="predicted_score", ascending=False).reset_index(drop=True)
 new_df["rank"] = new_df.index + 1
+
+print(new_df[["rank", "emp_name", "predicted_score"]])
+
 
 # Example evaluation metrics (dummy here, replace with your real eval result)
 mse = mse

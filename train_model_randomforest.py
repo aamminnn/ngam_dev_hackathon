@@ -35,5 +35,5 @@ r2 = r2_score(y_test, preds)
 print("R²:", r2)
 
 # Save model to file
-model_name = "RandomForest.pkl"
+model_name = "Model_RandomForest.pkl"
 joblib.dump(clf, model_name)
