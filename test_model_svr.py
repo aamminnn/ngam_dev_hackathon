@@ -1,6 +1,6 @@
 import pandas as pd
 import joblib
-from train_model_randomforest import mse, r2, model_name
+from train_model_svr import mse, r2, model_name
 from datetime import datetime
 
 model = joblib.load("Model_SupportVectorRegression.pkl")
