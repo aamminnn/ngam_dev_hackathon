@@ -46,7 +46,7 @@ Employee Rankings:
    10      Daisy Davies             7.05
 --------------------------------------------------
 
-[2025-09-12 16:06:13] Model=Model_RandomForest.pkl | MSE=0.82 | R2=0.69
+[2025-09-12 16:06:13] Model=Model_SupportVectorRegression.pkl | MSE=0.82 | R2=0.69
 Employee Rankings:
  rank          emp_name  predicted_score
     1       John Watson            7.425
