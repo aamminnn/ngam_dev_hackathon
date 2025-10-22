@@ -60,3 +60,18 @@ Employee Rankings:
     9         Lisa Cobb            7.425
    10   Margaret Wilcox            7.425
 --------------------------------------------------
+
+[2025-10-22 13:18:25] Model=Model_XGBoost.pkl | MSE=0.56 | R2=0.84
+Employee Rankings:
+ rank         emp_name  predicted_score
+    1     Marcus Garza        12.752463
+    2     Steven Bauer        12.364146
+    3       Andrea Lee        11.476882
+    4     Alice Willis        11.447513
+    5  Lisa Cortez DVM        11.023158
+    6    Breanna Walsh        10.478456
+    7 Zachary Valencia         9.930156
+    8   Claudia Torres         9.173119
+    9     Alexis Short         7.436611
+   10  Elizabeth Walls         7.287147
+--------------------------------------------------

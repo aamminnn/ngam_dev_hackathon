@@ -33,18 +33,18 @@ st.dataframe(df[["emp_name", "predicted_score"]])
 top_emp = df.iloc[0]
 st.success(f"⭐ Best Performer: {top_emp['emp_name']} with score {top_emp['predicted_score']:.2f}")
 
-'''
-What you’ve shown is essentially a styled dashboard UI with:
-Filters (team, role, date range)
-Top contributors card layout with score
-"Why this score" explainability section (showing breakdown of completion, complexity, quality, etc.)
-Trend / summary metrics (time saved, extraction accuracy, agreement score)
-Formula used at the bottom
-Your current Streamlit code can be extended to look like this by:
-Adding filter widgets (dropdowns, date pickers).
-Using card-like layouts with st.columns or community UI components.
-Building an explanation panel per employee, pulling from your calculated metrics.
-Showing summary KPIs at the top using st.metric.
-Using CSS / Streamlit theme to make it colorful and professional.
-So, in short: ✅ Yes, totally possible in Streamlit (or Dash/Gradio if you want alternatives).
-'''
+
+# What you’ve shown is essentially a styled dashboard UI with:
+# Filters (team, role, date range)
+# Top contributors card layout with score
+# "Why this score" explainability section (showing breakdown of completion, complexity, quality, etc.)
+# Trend / summary metrics (time saved, extraction accuracy, agreement score)
+# Formula used at the bottom
+# Your current Streamlit code can be extended to look like this by:
+# Adding filter widgets (dropdowns, date pickers).
+# Using card-like layouts with st.columns or community UI components.
+# Building an explanation panel per employee, pulling from your calculated metrics.
+# Showing summary KPIs at the top using st.metric.
+# Using CSS / Streamlit theme to make it colorful and professional.
+# So, in short: ✅ Yes, totally possible in Streamlit (or Dash/Gradio if you want alternatives).
+# Nabill

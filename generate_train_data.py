@@ -41,8 +41,8 @@ df = pd.DataFrame(data, columns=[
 df["score"] = (
     0.05*df["progress"] +
     0.3*df["quality"] +
-    0.3*df["impact"] +
-    0.2*df["complexity"] +
+    0.25*df["impact"] +
+    0.25*df["complexity"] +
     0.15*df["timeliness"]
 )
 

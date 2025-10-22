@@ -1,0 +1,51 @@
+What have been done?
+
+Run 9145.1001 completed and passed in Daily and Weekly
+Passed:
+ 507828 | Daily Admin UI Small set
+ 506288 | Daily BVT Small Set_App
+ 508480 | Daily BVT Small Set_DCM
+ 508480 | Daily BVT Small Set_SUM-SuitesOnly
+ 503366 | Daily Upgrade_2403-Current
+ 507437 | Daily Upgrade_2409-Current
+ 508484 | Daily Upgrade_2503-Current
+ 508338 | AutoUpgrade_Lasted-Current
+ 509530 | Weekly Rest_A-SuitesOnly
+ 509530 | Weekly Rest_B
+ 509530 | Weekly Rest_C-SuitesOnly
+ 509530 | Weekly Rest_D-Suites Only
+Investigating on Daily BVT Small Set_SP3Suites - Bug 35615264: [Daily][BVT][BitLockerManagement] suitep3.suites.bitlockermanagement.dll failed at EndToEndTest 
+Run Tiny ARM and Daily ARM on 9145.1001
+ 
+Issues Faced Today
+
+Stuck and investigating:
+ Daily OSD Simple - Bug 35648116:[Daily][BVT][OSD] PostSetupActions.xml failed
+ Daily BVT Small Set_SP3Suites - Bug 35615264: [Daily][BVT][BitLockerManagement] suitep3.suites.bitlockermanagement.dll failed at EndToEndTest
+Weekly XPath_A & Weekly XPath_B - Bug 35487538: [Weekly][BVT][Installation] Unable to VerifyDirectoryExists in Install CAS.xml
+
+Resolved Questions / Solutions
+
+
+Plan for Tomorrow
+
+
+Continue investigating on Daily BVT Small Set_SP3Suites - Bug 35615264: [Daily][BVT][BitLockerManagement] suitep3.suites.bitlockermanagement.dll failed at EndToEndTest
+Check on Tiny ARM and Daily ARM on 9145.1001 result  
+
+
+[Progress]
+- MiniBVT 10 Test case
+
+[complexity/issue]
+- sherlock 2 problem
+
+[quality]
+- UAC
+
+[impact]
+- contribute 12% for RP
+
+[timeliness]
+- 1 hour 1 testcase
+- total 4 hour 4 testcase
